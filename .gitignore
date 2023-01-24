@@ -1,4 +1,5 @@
-node_modules
-_volglass
-volglass
-volglass-cache
+/node_modules
+/_volglass
+/volglass
+/volglass-cache
+/posts/.obsidian
