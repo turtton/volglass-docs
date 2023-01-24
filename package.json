@@ -1,0 +1,16 @@
+{
+  "name": "volglass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pnpm": "^7.25.1",
+    "volglass-cli": "^0.1.1"
+  }
+}
