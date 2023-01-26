@@ -1,1 +1,1 @@
-This page is a demo page for [[volglass]], [click here](volglass.md) to learn how to use volglass.
+This page is a demo page for [[volglass]], [[volglass|click here]] to learn how to use volglass.
