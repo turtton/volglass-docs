@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "pnpm": "^7.26.0",
-    "volglass-cli": "^0.1.2"
+    "volglass-cli": "^0.2.0"
   }
 }
