@@ -11,9 +11,12 @@ volglass is a fork project of [MindStone](https://github.com/TuanManhCao/digital
 
 #### Setup volglass-cli
 Be sure to follow these steps because volglass-cli requires an npm project (`package.json`).
-- `npm init --yes`
-- `npm install --save-dev volglass-cli`
-- `npx volglass init`
+
+```sh	
+npm init --yes
+npm install --save-dev volglass-cli
+npx volglass init
+```
 
 Now, volglass-cli installs `pnpm` and creates `posts` directory.
 The `posts` directory is used to store the content in the obsidian vault. It is recommended that you create a README.md in the posts directory (this will be your first page in website).
