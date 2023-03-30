@@ -8,15 +8,13 @@ volglass is a fork project of [MindStone](https://github.com/TuanManhCao/digital
 #### Requirements
 - NodeJS(v17 or above)
 - Npm(v8 or above)
+- Java(8 or above)
 
 #### Setup volglass-cli
 Be sure to follow these steps because volglass-cli requires an npm project (`package.json`).
-
-```sh	
-npm init --yes
-npm install --save-dev volglass-cli
-npx volglass init
-```
+- `npm init --yes`
+- `npm install --save-dev volglass-cli`
+- `npx volglass init`
 
 Now, volglass-cli installs `pnpm` and creates `posts` directory.
 The `posts` directory is used to store the content in the obsidian vault. It is recommended that you create a README.md in the posts directory (this will be your first page in website).
@@ -41,10 +39,11 @@ Although not recommended, you can also build with Docker in this case.
 #### Requirements
 - NodeJS(v17 or above)
 - Pnpm(v7)
+- Java(8 or above)
 
 #### Clone volglass
 - `git clone https://github.com/turtton/volglass.git`(or `git@github.com:turtton/volglass.git`)
-Place markdown files in the posts directory and image files in the public/images directory. Do not separate the image files into directory hierarchies.
+Place markdown files in the `posts` directory.
 
 #### Build your contents
 - `pnpm run build && pnpm run export`
