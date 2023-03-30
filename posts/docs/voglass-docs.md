@@ -1,6 +1,6 @@
 [GitHub - turtton/volglass-docs](https://github.com/turtton/volglass-docs)
 Document and demo pages built in [volglass](https://github.com/turtton/volglass).
-
+[[ja/docs/volgass-docs | 日本語]]
 This page describes how volglass-docs is managed and published.
 
 ### Structure
@@ -31,31 +31,32 @@ volglass-docs uses custom [Docker Image](https://github.com/turtton/filesystem-l
 - Run `sh build-docker.sh` 
 - Create a directory **different** from the cloned project and move into it
 - Create `autocommit.sh`
-  ```
+  ```sh
   #!/bin/sh  
   
   cd /data/vault/posts  
   
   git pull  
   if grep -q commit=true Commit.md; then  
-    sed -i "s/true/false/g" Commit.md  
-   echo "start commit"  
-   git config --global --add safe.directory /data/vault  
-   git config user.name "$GIT_NAME"  
-   git config user.email "$GIT_MAIL"  
-   git add .  
-   git commit -m "$GIT_MESSAGE"  
-   git push  
-   echo "done"  
-   touch Commit.md  
+    sed -i "s/true/false/g" Commit.md  
+    echo "start commit"  
+    git config --global --add safe.directory /data/vault  
+    git config user.name "$GIT_NAME"  
+    git config user.email "$GIT_MAIL"  
+    git add .  
+    git commit -m "$GIT_MESSAGE"  
+    git push  
+    echo "done"  
+    touch Commit.md  
   else  
-   echo "commit is not enabled. skipping..."  
+    echo "commit is not enabled. skipping..."  
   fi
+
   ```
-  >This script checks a file named Commit.md in the root of your valut and commits only when the string commit=true is present in the file. Feel free to modify it to your liking.
+  >This script checks a file named `Commit.md` in the root of your valut and commits only when the string `commit=true` is present in the file. Feel free to modify it to your liking.
 - Create `config.json`(See [official example](https://github.com/turtton/filesystem-livesync#configuration))
   Please set up the settings in `local` section as shown here
-  ```
+  ```json
   {
   ...
         "local": {
@@ -103,6 +104,9 @@ filesystem-settings
   └(your contents)
 ```
 - Return to settings directory, run `sh launch-image.sh`, and you are done!!
+>If you are using podman on CoreOS, it is recommended that you do the following to get the container to start after an automatic reboot
+>`podman generate systemd --name filesystem-livesync > ~/.config/systemd/user/container-filesystem-livesync.service`
+>`systemctl enable --user container-filesystem-livesync.service`
 
 ### Setup CloudflarePages
 Select `Connect to git` to connect to the your repository.
