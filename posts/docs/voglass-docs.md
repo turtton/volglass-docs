@@ -1,6 +1,6 @@
 [GitHub - turtton/volglass-docs](https://github.com/turtton/volglass-docs)
 Document and demo pages built in [volglass](https://github.com/turtton/volglass).
-[[ja/docs/volgass-docs | 日本語]]
+[[ja/volgass-docs | 日本語]]
 This page describes how volglass-docs is managed and published.
 
 ### Structure
@@ -84,6 +84,7 @@ volglass-docs uses custom [Docker Image](https://github.com/turtton/filesystem-l
 	3. `git add .`
 	4. `git comit -m "init commit"`
 	5. `git push --set-upstream origin main`
+
 Finally, the file structure should look like this
 ```
 filesystem-livesync

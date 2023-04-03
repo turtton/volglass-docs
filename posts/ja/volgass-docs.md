@@ -1,6 +1,6 @@
 [GitHub - turtton/volglass-docs](https://github.com/turtton/volglass-docs)
  [volglass](https://github.com/turtton/volglass)のドキュメント兼デモページ.
-[[docs/volgass-docs | English]]
+ [[voglass-docs | English]]
 このページではvolglass-docsがどのように管理/公開されているかを紹介します
 
 ### Structure
@@ -84,6 +84,7 @@ volglass-docsではgitとsshを使用するために変更を加えた [Docker I
 	3. `git add .`
 	4. `git comit -m "init commit"`
 	5. `git push --set-upstream origin main`
+
 この時点で以下のようなディレクトリ構造になっているはずです
 ```
 filesystem-livesync
