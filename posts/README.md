@@ -1,1 +1,2 @@
-This page is a demo page for [[Converting your contents]], [[Converting your contents|click here]] to learn how to use volglass.
+This page is a demo page for [volglass](https://github.com/turtton/volglass).
+[[volglass/docs/learn/Getting Started|Click here]] to learn how to use this.
