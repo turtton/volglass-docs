@@ -93,7 +93,7 @@ volglass-docs uses custom [Docker Image](https://github.com/turtton/filesystem-l
 	5. `git push --set-upstream origin main`
 
 Finally, the file structure should look like this
-```
+```str
 filesystem-livesync
 ├build-docker.sh
 └...

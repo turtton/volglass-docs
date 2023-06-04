@@ -51,4 +51,4 @@ next.js outputs content in `out` directory.
 
 #### Build docker iamge(optional)
 Thanks to [ilkersigirci](https://github.com/turtton/volglass/pull/2) you can build docker image.
-- `docker build -t local/volglass:latest && docker run -d -p 3000:3000 --name volglass local/volglass:latest`
+- `docker build -t local/volglass:latest . && docker run -d -p 3000:3000 --name volglass local/volglass:latest`

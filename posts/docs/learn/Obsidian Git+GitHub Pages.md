@@ -35,7 +35,7 @@ end
 - Start Obsidian and open folder that cloned.![[open_folder_as_vault.png]]
   - Enable the community plugin from settings and install and activate [Obsidian Git](https://github.com/denolehov/obsidian-git).![[install_obsidian_git.png]]
    - Configure automatic backup from `Obsidain git` settings. he following image shows the configuration for performing automatic backups every 5 minutes.
-     ⚠️ Since the deployment action takes an average of around 4 minutes, it is recommended to set the interval to be longer than 5 minutes. If it is shorter than this, workflows may be congested.![[Pasted image 20230604133223.png]]
+     ⚠️ Since the deployment action takes an average of around 4 minutes, it is recommended to set the interval to be longer than 5 minutes. If it is shorter than this, workflows may be congested.![[obsidian_git_settings.png]]
 
 That's it! Please make sure to modify the contents of the README and confirm that sync to the repository. 
 Additionally, deleting the README.md file is not recommended. It serves as the starting point for your site. Instead, consider adding an introduction to your page. 
