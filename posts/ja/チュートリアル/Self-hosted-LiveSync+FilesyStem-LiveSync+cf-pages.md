@@ -1,7 +1,14 @@
 [GitHub - turtton/volglass-docs](https://github.com/turtton/volglass-docs)
- [volglass](https://github.com/turtton/volglass)のドキュメント兼デモページ.
- [[voglass-docs | English]]
+[volglass](https://github.com/turtton/volglass)のドキュメント兼デモページ.
 このページではvolglass-docsがどのように管理/公開されているかを紹介します
+
+### 特徴
+- ✅ 複数端末によるリアルタイム同期
+- ✅ 任意タイミングでデプロイが可能
+- ✅ 自身のドメインが不要
+- ✅ プライベートリポジトリで管理が可能
+- ⚠️ 設定が複雑
+- ❌ FileSystem-LiveSyncを動かすためのサーバーが必要
 
 ### Structure
 ```mermaid

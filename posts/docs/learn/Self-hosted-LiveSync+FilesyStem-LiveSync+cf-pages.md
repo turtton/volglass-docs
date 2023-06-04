@@ -1,7 +1,14 @@
 [GitHub - turtton/volglass-docs](https://github.com/turtton/volglass-docs)
 Document and demo pages built in [volglass](https://github.com/turtton/volglass).
-[[ja/volgass-docs | 日本語]]
 This page describes how volglass-docs is managed and published.
+
+### Features
+- ✅ Real-time synchronization across multiple devices
+- ✅ Deploy pages at any time you want
+- ✅ No need for your own domain
+- ✅ Can be managed in a private repository
+- ⚠️ Complex configuration
+- ❌ Requires a server to run FileSystem-LiveSync
 
 ### Structure
 ```mermaid
