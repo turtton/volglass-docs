@@ -6,6 +6,7 @@ Easiest example. This page explains managing and deploying documents using [deno
 - ✅ Adjusted deployment interval depending on obsidian-git settings
 - ⚠️ Only valid for public repositories
 - ❌ Requires your domain
+  If you use Cloudflare Pages, you can deploy without domain.(Scroll to bottom of the page for the CF Pages version)
 
 ### Structure
 ```mermaid
@@ -23,7 +24,8 @@ end
 ```
 
 ## Setup valut
-⚠️ - Prior knowledge of Git and cloning repositories from GitHub is required. However, detailed explanations will be omitted.
+⚠️ Prior knowledge of Git and cloning repositories from GitHub is required. 
+
 - Create new repository from [volglass-obsidian-git-gh-pages](https://github.com/turtton/volglass-obsidian-git-gh-pages) and clone it.
   ⚠️ After forking this repository, the initial [Action](https://github.com/turtton/volglass-obsidian-git-gh-pages/blob/main/.github/workflows/deploy.yml) will be automatically triggered. There is no need to wait during this time. (In fact, it is recommended to proceed with the next steps within 5 minutes from here)![[create_new_repository.png]]
 - Change the `Build and deployment` option to `GitHub Actions` in the Settings->Pages in the forked repository.![[pages_settings_actions.png]]
@@ -40,3 +42,6 @@ end
 That's it! Please make sure to modify the contents of the README and confirm that sync to the repository. 
 Additionally, deleting the README.md file is not recommended. It serves as the starting point for your site. Instead, consider adding an introduction to your page. 
 	If you delete the README file, an empty README is generated automatically on your site.
+
+## Use CloudflarePages instead of GitHubPages
+//TODO write next week
