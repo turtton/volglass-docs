@@ -10,7 +10,7 @@
 - ⚠️ 設定が複雑
 - ❌ FileSystem-LiveSyncを動かすためのサーバーが必要
 
-### Structure
+### 構造
 ```mermaid
 flowchart TD
 	db[(CouchDB)]

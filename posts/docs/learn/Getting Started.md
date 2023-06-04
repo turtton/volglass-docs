@@ -3,7 +3,7 @@ This tool does not handle the management of the repository for publishing or the
 
 Here, there are some example of deployment using volglass. If you have an idea not descrived here, please open issue in [volglass-docs](https://github.com/turtton/volglass-docs/issues).
 
-- [[volglass/docs/learn/obsidian-git+gh-pages|obsidian-git+gh-pages]]
-- [[volglass/docs/learn/Self-hosted-LiveSync+FilesyStem-LiveSync+cf-pages|Self-hosted-LiveSync+FilesyStem-LiveSync+cf-pages]]
+- [[volglass/docs/learn/Obsidian Git+GitHub Pages|Obsidian Git+GitHub Pages]]
+- [[volglass/docs/learn/FileSystem-LiveSync+Cloudflare Pages|FileSystem-LiveSync+Cloudflare Pages]]
 
 If you want to use volglass as is, see [[Converting your contents]]. This page describes how to use volglass and volglass-cli and what these tools do.
